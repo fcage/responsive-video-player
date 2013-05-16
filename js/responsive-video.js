@@ -24,7 +24,7 @@ var gia = function(gia, $){
 				"controlbar.idlehide": true,
 				events: {
 					onBeforePlay: function(){
-						
+						$('.' + vp.videoelement + '-content').fadeOut(100);
 					},
 					onReady: function(){
 
